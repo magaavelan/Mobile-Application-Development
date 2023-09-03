@@ -26,14 +26,15 @@ Step 6: Display message give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
+```
 /*
 Program to print the text “Hello World”.
 Developed by:S.magaavelan
 Registeration Number :212221040093
 */
-
-MainActivity.java:
-
+```
+## MainActivity.java:
+```
 package com.example.helloworld;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -94,9 +95,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
     }
 }
-
-Activity_main.xml:
-
+```
+## Activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -119,34 +120,23 @@ Activity_main.xml:
         app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-OUTPUT
-onStart()
-
-u
-onCreate()
-
-w
-onRestart()
-
-s
-onPause()
-
-v
-onResume()
-
-f
-onDestroy()
-
-d
-onStop()
-
-e
-
+```
 ## OUTPUT
-
-
+## onStart()
+![u](https://user-images.githubusercontent.com/128135244/238190097-8cba54f1-6212-4df0-bcdb-f63968180a8c.png)
+## onCreate()
+![w](https://user-images.githubusercontent.com/128135244/238190142-9cb0a129-1e6e-4070-9d46-e883a3c5ffa8.png)
+## onRestart()
+![s](https://user-images.githubusercontent.com/128135244/239744338-65457888-9a0f-453c-a7f0-238718ce93b3.png)
+## onPause()
+![v](https://user-images.githubusercontent.com/128135244/239744364-65590a7f-907f-4322-a343-e0e9dfb07f04.png)
+## onResume()
+![f](https://user-images.githubusercontent.com/128135244/239744384-54f82a3d-ab7a-4122-9c62-8465d6c1271f.png)
+## onDestroy()
+![d](https://user-images.githubusercontent.com/128135244/238190164-832d0445-3278-48e4-b718-7f0c030f73d1.png)
+## onStop()
+![e](https://user-images.githubusercontent.com/128135244/238190186-3e74dfc3-82a2-4c4e-86f4-1361d8b499ed.png)
 
 
 ## RESULT
-Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is developed and executed successfully.
+Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is deve
